@@ -1,0 +1,102 @@
+    * {
+        font-family: 'Baloo Bhai';
+        font-size: 22px;
+    }
+
+    h1 {
+        text-align: center;
+        color: aliceblue;
+        font-size: 50px;
+        font-weight: 100;
+        /* background-color: antiquewhite; */
+    }
+
+    body {
+        background-image: url(https://images.pexels.com/photos/1674049/pexels-photo-1674049.jpeg?cs=srgb&dl=pexels-%C2%B6project-atlas-1674049.jpg&fm=jpg);
+        background-size: 1540px 1120px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #nature {
+        background-color: rgb(89, 218, 89);
+        margin: 20px 0;
+        font-size: 40px;
+        position: relative;
+        height: 200px;
+        width: 275px;
+        left: 130px;
+        top: 185px;
+    }
+
+    #nature:hover {
+        color: rgb(62 158 44);
+        background-color: aliceblue;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto Slab', serif;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    #macro {
+        background-color: rgb(64, 61, 212);
+        margin: 20px 0;
+        font-size: 40px;
+        position: relative;
+        left: 595px;
+        bottom: 50px;
+        /* top: 48px; */
+        width: 280px;
+        height: 200px;
+    }
+
+    #macro:hover {
+        color: rgb(0, 64, 255);
+        background-color: aliceblue;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto Slab', serif;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    #wildlife {
+        background-color: rgb(234, 42, 28);
+        margin: 20px 0;
+        font-size: 40px;
+        position: relative;
+        left: 1088px;
+        bottom: 330px;
+        width: 215px;
+        height: 277px;
+    }
+
+    #wildlife:hover {
+        color: rgb(250, 74, 63);
+        background-color: aliceblue;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto Slab', serif;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button {
+        padding: 10px;
+        width: 300px;
+    }
+
+    .button:hover {
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        border-radius: 12px;
+    }
+
+    @keyframes textAnimation {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.2); }
+        100% { transform: scale(1); }
+      }
+      
+      .text-with-animation {
+        animation: textAnimation 2s infinite;
+      }

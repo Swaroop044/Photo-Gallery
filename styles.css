@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    /* background-color: rgb(126, 236, 225); */
+    font-family: 'Baloo Bhai';font-size: 22px;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.gallery img {
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    border-radius: 12px;
+    box-shadow: 0 10px 10px rgba(0, 0 , 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
